@@ -43,10 +43,10 @@ const Footer = () => {
                 <br /> Tvm, Kerala <br /> 695610
               </address>
               <a
-                href="tel: +91 9544607303"
+                href="tel: +1 (123) 654 9876 "
                 className="mt-4 d-block mb-3 text-white  fs-9"
               >
-                +91 9544607303
+                +1 (123) 654 9876
               </a>
               <a
                 href="mailto: wishitall@gmail.com"
@@ -55,19 +55,19 @@ const Footer = () => {
                 wishitall@gmail.com
               </a>
               <div className="social_icons d-flex align-items-center gap-15 mt-4 ">
-                <a href="">
+                <a href="#">
                   <BsLinkedin className="text-white fs-8" />
                 </a>
-                <a href="">
+                <a href="#">
                   <BsInstagram className="text-white fs-8" />
                 </a>
-                <a href="">
+                <a href="#">
                   <BsTwitterX className="text-white fs-8" />
                 </a>
-                <a href="">
+                <a href="#">
                   <FaFacebookSquare className="text-white fs-8" />
                 </a>
-                <a href="">
+                <a href="#">
                   <FaYoutube className="text-white fs-8" />
                 </a>
               </div>
@@ -105,8 +105,8 @@ const Footer = () => {
               <h4 className="text-white mb-4"> Our App</h4>
               <div className="text-white">
                 <h6>Download our app here and get Discount upto 30%</h6>
-                <FaGooglePlay style={{ marginRight: '40px' }}/>
-                <FaAppStore/>
+                <FaGooglePlay style={{ marginRight: "40px" }} />
+                <FaAppStore />
               </div>
             </div>
           </div>

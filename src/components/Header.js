@@ -6,19 +6,18 @@ const Header = () => {
   return (
     <>
       <header className="header-top-strip py-2">
-        <div className="container-xxl">
-          <div className="row">
+        <div className="container-xxl ">
+          <div className="row d-flex align-items-center">
             <div className="col-6">
-              <p className="text-white mb-0">
-                Free Shipping Over ₹5000 & Free Return
+              <p className="text-white mb-2 mt-2">
+                Free Shipping Over $5 & Free Return
               </p>
             </div>
-
             <div className="col-6">
-              <p className="text-end text-white">
+              <p className="text-end text-white mb-2 mt-2">
                 Hotline:
-                <a className="text-white" href="tel:+91 9544607303">
-                  +91 9544607303
+                <a className="text-white" href="tel:++1 (123) 654 9876 ">
+                  +1 (123) 654 9876
                 </a>
               </p>
             </div>
@@ -111,7 +110,7 @@ const Header = () => {
                     >
                       <img src="images/menu.svg" alt=""></img>{" "}
                       <span className="me-5 d-inline-block">
-                          Shopping Category
+                        Shopping Category
                       </span>
                     </button>
                     <ul
