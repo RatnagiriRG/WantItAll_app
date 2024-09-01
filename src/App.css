@@ -17,6 +17,7 @@ body {
   --color-f5f5f7: #f5f5f7;
   --color-ededed: #ededed;
   --color-777777: #777777;
+  --color-1c1c1b: #1c1c1b;
 }
 
 .section-heading {
@@ -284,13 +285,64 @@ footer .input-group-text {
 /* blog-parts ends */
 
 /* product card  start*/
-.product-card{
+.product-card {
   padding: 10px;
   background-color: white;
   border-radius: 10px;
-
+  overflow: hidden;
 }
 
+.product-card .product-image {
+  height: 270px;
+}
 
+.product-card .product-image img{
+  object-fit: contain;
+}
+
+.product-card .product-image > img:last-child {
+  display: none;
+}
+.product-card:hover .product-image > img:nth-child(1) {
+  display: none;
+}
+
+.product-card:hover .product-image > img:last-child {
+  display: block;
+}
+
+.product-card:hover .action-bar {
+  right: 20px;
+}
+.product-card .product-details h6 {
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+
+.product-card .product-details h5.product-title {
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+
+.product-card .product-details p.price {
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+
+.action-bar {
+  top: 15%;
+  right: -23px;
+  transition: 0.3s;
+}
+
+.wish-list-icons {
+  top: 5%;
+  right: 20px;
+}
 /* product card ends */
+/* special product start here */
+
+
+
+/* special product ends here */
 /* Homepage ends Here */
