@@ -348,12 +348,42 @@ footer .input-group-text {
   background-color: white;
 }
 
-.special-product-cart .badge{
+.special-product-cart .badge {
   background-color: #fc353c00;
 }
 
-
-
-
 /* special product ends here */
-/* Homepage ends Here */
+/* famous product start Here */
+.famous-card .famous-content {
+  top: 20%;
+  left: 10%;
+}
+
+.famous-content h5 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 7px;
+}
+.famous-content h6 {
+  font-size: 22px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+.famous-content p {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.famous-card img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* famouns product ends Here */

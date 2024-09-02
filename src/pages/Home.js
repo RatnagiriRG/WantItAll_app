@@ -211,15 +211,65 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="famous-wrapepr py-5 home-wrapper-2">
+      <section className="famous-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
-          <div className="col-3">
-            <div className="famous-card bg-dark">
-               
-               <h5>Bigscreen</h5> 
-               <h6>Smart Watch Series 8</h6>
-               
-               </div>
+          <div className=" row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-1.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5>Bigscreen</h5>
+                  <h6>Smart Watch Series 8</h6>
+                  <p>From $499 or $16.6/mo. for 24 mo. </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-2.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Studio Display</h5>
+                  <h6 className="text-dark">600nits Brigtness</h6>
+                  <p className="text-dark">14-inch 1.5K Retina Display </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-4.jpg"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">SmartPhones</h5>
+                  <h6 className="text-dark">SmartPhones 13 Pro</h6>
+                  <p className="text-dark">Now Available in Green From $799</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img
+                  src="images/famous-5.webp"
+                  className="img-fluid"
+                  alt="famous"
+                />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Home Speaker</h5>
+                  <h6 className="text-dark">Room-Filing sound</h6>
+                  <p className="text-dark">From $15 to $799/mo. </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
