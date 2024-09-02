@@ -18,6 +18,7 @@ body {
   --color-ededed: #ededed;
   --color-777777: #777777;
   --color-1c1c1b: #1c1c1b;
+  --color-fc353c00: #fc353c00;
 }
 
 .section-heading {
@@ -296,7 +297,7 @@ footer .input-group-text {
   height: 270px;
 }
 
-.product-card .product-image img{
+.product-card .product-image img {
   object-fit: contain;
 }
 
@@ -341,6 +342,16 @@ footer .input-group-text {
 }
 /* product card ends */
 /* special product start here */
+.special-product-cart {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.special-product-cart .badge{
+  background-color: #fc353c00;
+}
+
 
 
 
