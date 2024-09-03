@@ -450,4 +450,11 @@ footer .input-group-text {
 .random-products:first-of-type {
   border-bottom: 1px solid var(--color-ededed);
 }
+
+.filter-sort-grid{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: none;
+}
 /* our store ends here */
