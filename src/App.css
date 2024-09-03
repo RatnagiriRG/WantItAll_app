@@ -451,10 +451,34 @@ footer .input-group-text {
   border-bottom: 1px solid var(--color-ededed);
 }
 
-.filter-sort-grid{
+.filter-sort-grid {
   padding: 10px;
   background-color: white;
   border-radius: 10px;
   box-shadow: none;
+}
+
+.grid img {
+  width: 22px;
+  height: 22px;
+  background-color: #f2f2f2f2;
+  padding: 5px;
+  border-radius: 3px;
+
+}
+
+.gr-12{
+  width: 100%;
+}
+
+.gr-6{
+  width: 49%;
+}
+.gr-4{
+  width: 32%;
+}
+
+.gr-3{
+  width: 24%;
 }
 /* our store ends here */
