@@ -307,11 +307,11 @@ const OurStore = () => {
                   </div>
                 </div>
               </div>
-              <div className="products-list pb-5 mt-4">
-                <div className="d-flex gap-5   flex-wrap">
+              <div className="products-list py-3 ">
+                <div className="d-flex    flex-wrap grid-product">
                   <ProductCard grid={grid} />
                   <ProductCard grid={grid} />
-                   <ProductCard grid={grid} />
+                  <ProductCard grid={grid} /> <ProductCard grid={grid} />
                 </div>
               </div>
             </div>

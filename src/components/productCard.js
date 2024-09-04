@@ -41,6 +41,12 @@ const ProductCard = (props) => {
             edit={false}
             activeColor="#ffd700"
           />
+          {console.log(grid === 12)}
+          {grid ===12|| grid===6?<p className={`description `}>
+            Elevate your lifestyle with the SmartFit Pro, the ultimate
+            smartwatch designed for those who want to stay connected and healthy
+            on the go.
+          </p>:""}
           <p className="price">$100.00</p>
         </div>
 
